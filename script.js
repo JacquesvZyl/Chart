@@ -204,7 +204,7 @@ class App {
     <h2 class="workout__title">${workout.description}</h2>
     <div class="temp_container">
     <span>${workout.temp}°C</span>
-    <img class="wicon" src="http://openweathermap.org/img/wn/${workout.weatherIcon}@2x.png"" alt="Weather icon">
+    <img class="wicon" src="https://openweathermap.org/img/wn/${workout.weatherIcon}@2x.png"" alt="Weather icon">
     </div>
     </div>
    
