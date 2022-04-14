@@ -51,7 +51,7 @@ class App {
 
   async _getWeather(lat, lon) {
     try {
-      const url = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=b6ba67cfc386c27233294b33908d06fc`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=metric&appid=b6ba67cfc386c27233294b33908d06fc`;
       const result = await fetch(url);
       if (!result.ok)
         throw new Error(`${result.status}: unable to fetch api data ${url}`);
